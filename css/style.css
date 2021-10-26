@@ -24,15 +24,22 @@ body{
 
 .button{
     font-size: 13px;
+    font-weight: bold;
     margin-left: 20px;
-    width: 80px;
-    height: 40px;
-    border: 5px;
-    border-color: lightgrey;
+    padding: 10px 24px;
+    border: 1px solid #d3d7db ;
+    border-radius: 5px;
 }
 
 #button1{
     background-color: #47adf1;
+    color: #fff;
+}
+
+#button2{
+    background-color: #fff;
+    color: #d3d7db;
+    margin-left: 5px;
 }
 
 #logo{
