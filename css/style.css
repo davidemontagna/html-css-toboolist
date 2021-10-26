@@ -78,20 +78,22 @@ body{
     margin-top: 20px;
 }
 
-.checked:before{
-    color: #77c8b5;
-    content: "\2714";
-    border: 1px solid #77c8b5;
+.check-entity{
+    color:#80cdbb;
+    padding:1px 3px ;
+    border: 2px solid #80cdbb;
     border-radius: 50%;
-    margin-left: 3px;
+    border-width: 1px;
+    font-size: 12px;
 }
 
-.unchecked:before{
-    content: "\2718";
-    color: #eb5852;
-    border: 1px solid #eb5852;
+.uncheck-entity{
+    color:#eb5852;
+    padding:1px 3px ;
+    border: 2px solid #eb5852;
     border-radius: 50%;
-    margin-left: 3px;
+    border-width: 1px;
+    font-size: 12px;
 }
 
 .checked, .unchecked{
