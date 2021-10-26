@@ -6,15 +6,33 @@
 
 .container{
     background-color: white;
-    
+    height: 100px;
     padding: 25px;
 }
 
 body{
     background-color: #efefef;
 }
-main{
+
+.container2{
+    padding: 10px;
     background-color: white;
+    width: 50%;
+    margin-left: 20%;
+    margin-top: 50px;
+}
+
+.button{
+    font-size: 13px;
+    margin-left: 20px;
+    width: 80px;
+    height: 40px;
+    border: 5px;
+    border-color: lightgrey;
+}
+
+#button1{
+    background-color: #47adf1;
 }
 
 #logo{
